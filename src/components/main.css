@@ -1,0 +1,52 @@
+.profil-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 400px;
+}
+
+h1{
+    letter-spacing:3px;
+}
+
+.profile-text h1 ,p{
+    padding-bottom: 25px;
+}
+
+h6{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.skils{
+    margin-top: 25px;
+}
+
+.skils span{
+    margin-right: 20px;
+    padding: 30px 15px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.html:hover{
+    background-color: orangered;
+}
+
+.css:hover{
+    background: cyan;
+}
+.js:hover{
+    background:yellow;
+}
+
+.btsrp:hover{
+    background:violet;
+}
+
+
+.react:hover{
+    background: blue;
+}

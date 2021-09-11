@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    width: 100%;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin: 0 50px;
+    font-size:18px;
+}
+
+.nav-logo h3{
+    padding-bottom: 10px;
+    font-size:20px;
+    color: #333;
+    letter-spacing:5px;
+}
+.nav-logo p{
+    font-size:18px;
+    color: #333;
+    letter-spacing:5px;
+}
+
